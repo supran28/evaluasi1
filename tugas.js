@@ -25,12 +25,23 @@
 //        document.write(`<p>Grade anda: ${grade}</p>`);
 
 
-for (var y = 60; y<=100; y++){
-       if(y%2 ==0){
-           document.write(y + ":" +"genap")
-       }
-        else{
-            document.write(y + ":" + "ganjil")
-       }
-        document.write("</br>")
-    }
+//for (var y = 60; y<=100; y++){
+//       if(y%2 ==0){
+//           document.write(y + ":" +"genap")
+//       }
+//        else{
+//            document.write(y + ":" + "ganjil")
+//       }
+//        document.write("</br>")
+//    }
+
+
+var password = prompt("Password:");
+
+if(password == "supran"){
+    document.write("<h2>Selamat datang bos!</h2>");
+} else {
+    document.write("<p>Password salah, coba lagi!</p>");
+}
+
+document.write("<p>Terima kasih sudah menggunakan aplikasi ini!</p>");
