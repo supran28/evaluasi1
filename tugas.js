@@ -25,7 +25,7 @@
 //        document.write(`<p>Grade anda: ${grade}</p>`);
 
 
-for (var y = 1; y<=9; y++){
+for (var y = 60; y<=100; y++){
        if(y%2 ==0){
            document.write(y + ":" +"genap")
        }
